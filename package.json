@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-local-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5"
+  }
+}
+
+
