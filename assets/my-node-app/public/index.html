@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Image Upload</title>
+</head>
+<body>
+    <h1>Upload Profile Image</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="profileImage" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+    <img id="profileImage" src="" alt="Profile Image" style="display:none; width: 200px; height: auto;"/>
+    
+    <script src="script.js"></script>
+</body>
+</html>

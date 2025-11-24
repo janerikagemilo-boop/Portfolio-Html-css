@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jan Erika P. Gemilo — Portfolio</title>
+  <meta name="description" content="Portfolio of Jan Erika P. Gemilo">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="top-nav">
+    <div class="container nav-row">
+      <a class="brand" href="#">Jan Erika P. Gemilo</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <label class="theme-switch floating" aria-label="Toggle color theme">
+        <input id="theme-switch" type="checkbox">
+        <span class="slider"></span>
+        <span class="switch-label">Theme</span>
+      </label>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+          <figure class="hero-image">
+          <img id="profile-img" src="/assets/profile-pic.jpg" alt="Portrait of Jan Erika P. Gemilo">
+          <form id="upload-form" class="upload-form">
+            <input type="file" id="upload-input" name="image" accept="image/*">
+            <button type="submit" class="btn">Upload</button>
+          </form>
+        </figure>
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-title">Jan Erika P. Gemilo</h1>
+          <div class="hero-actions">
+            <a class="btn pill" href="#" download>Download CV</a>
+            <a class="btn pill primary" href="mailto:piamontejanerika@gmail.com">Contact Info</a>
+          </div>
+          <div class="hero-socials">
+            <a class="icon-link" href="mailto:piamontejanerika@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.24l7.4 6.29c.35.3.85.3 1.2 0L20 8.24V18H4z"/></svg>
+            </a>
+            <a class="icon-link" href="https://www.linkedin.com/in/jan-erika-p-gemilo-ba1364386/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.2c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.87-2.77 3.8V23h-4V8z"/></svg>
+            </a>
+            <a class="icon-link" href="https://github.com/janerikagemilo-boop" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.85 3.15 8.96 7.52 10.41.55.1.75-.24.75-.53 0-.26-.01-1.14-.02-2.06-3.06.66-3.71-1.3-3.71-1.3-.5-1.27-1.22-1.61-1.22-1.61-.99-.68.07-.67.07-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.9.1-.71.38-1.19.69-1.47-2.44-.28-5-1.22-5-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.12.87-.24 1.8-.36 2.73-.37.93 0 1.86.13 2.73.37 2.1-1.42 3.02-1.12 3.02-1.12.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.57 5.15-5.02 5.43.39.34.74 1.01.74 2.04 0 1.47-.01 2.66-.01 3.02 0 .29.2.63.75.53 4.37-1.45 7.52-5.56 7.52-10.41C23.02 5.24 18.27.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-content">
+          <p class="eyebrow">Get To Know More</p>
+          <h2>About Me</h2>
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">🏅</div>
+              <div>
+                <h3>Experience</h3>
+                <p>1 week</p>
+                <p class="muted">Basic Web Development</p>
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">🎓</div>
+              <div>
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree (CompSci)</p>
+              </div>
+            </div>
+          </div>
+          <p class="about-text">Hi there! I'm a newbie developer starting my journey in web development. I’m learning how to build simple and responsive websites with HTML and CSS, and exploring backend development with Python and PostgreSQL to create functional applications.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            
+            <h3>Frontend Development</h3>
+            <p>Built a responsive website using HTML and CSS to showcase my skills and projects. Handled the frontend design and layout for both desktop and mobile.</p>
+            <div class="pill-group">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+            </div>
+          </article>
+          <article class="project-card">
+            
+            <h3>Backend Development</h3>
+            <p>Developed a basic authentication system using Python and PostgreSQL. Handled backend logic, data storage, and user validation.</p>
+            <div class="pill-group">
+              <span class="pill">Python</span>
+              <span class="pill">PostgreSQL</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li>HTML & CSS</li>
+          <li>Python</li>
+          <li>PostgreSQL</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <p>Frontend Development and Backend Development</p>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>Have a project in mind or want to connect? Feel free to reach out—I’d be happy to hear from you.”</p>
+        <a class="btn primary" href="mailto:piamontejanerika@gmail.com">Email me</a>
+        <div class="social-links" aria-label="Social links">
+          <a class="social-item" href="mailto:piamontejanerika@gmail.com">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.24l7.4 6.29c.35.3.85.3 1.2 0L20 8.24V18H4z"/>
+            </svg>
+            <span>piamontejanerika@gmail.com</span>
+          </a>
+          <a class="social-item" href="https://www.linkedin.com/in/jan-erika-p-gemilo-ba1364386/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.2c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.87-2.77 3.8V23h-4V8z"/>
+            </svg>
+            <span>linkedin.com/in/jan-erika-p-gemilo-ba1364386</span>
+          </a>
+          <a class="social-item" href="https://github.com/janerikagemilo-boop" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="currentColor" d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.85 3.15 8.96 7.52 10.41.55.1.75-.24.75-.53 0-.26-.01-1.14-.02-2.06-3.06.66-3.71-1.3-3.71-1.3-.5-1.27-1.22-1.61-1.22-1.61-.99-.68.07-.67.07-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.9.1-.71.38-1.19.69-1.47-2.44-.28-5-1.22-5-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.12.87-.24 1.8-.36 2.73-.37.93 0 1.86.13 2.73.37 2.1-1.42 3.02-1.12 3.02-1.12.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.57 5.15-5.02 5.43.39.34.74 1.01.74 2.04 0 1.47-.01 2.66-.01 3.02 0 .29.2.63.75.53 4.37-1.45 7.52-5.56 7.52-10.41C23.02 5.24 18.27.5 12 .5z"/>
+            </svg>
+            <span>github.com/janerikagemilo-boop</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jan Erika P. Gemilo</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  
+</body>
+</html>
+
+
